@@ -15,7 +15,6 @@ public class Application {
 		ApplicationContext appContext = new AnnotationConfigApplicationContext(Application.class);
 		Shutdowner shutdowner = appContext.getBean(Shutdowner.class);
 		shutdowner.isShutdownScheduled();
-		System.out.println("lkjlkj");
 	}
 
 }
